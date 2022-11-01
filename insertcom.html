@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>طلب متطوعين </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        .wrapper{
+            width: 500px;
+            margin: 0 auto;
+            color: white;
+            
+        
+    </style>
+</head>
+
+    
+<body>
+<style>
+    
+    body{
+        background: #001219;
+    }
+    </style>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h2>اعلان عن تطوع جديد</h2>
+                    </div>
+                    <h2 style= "text-align: center";>املاء الاعلان </h2>
+                    <form action="/n/insertphp/insertcom.php" method="post" enctype="multipart/form-data">
+
+                        <div class="form-group">
+                            <label>نبذة عن التطوع </label>
+                            <input type="text" name="samre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>عدد المتطوعين المطلوبين</label>
+                            <input type="number" name="number" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>المكافاه</label>
+                            <input type="number" name="salry" class="form-control">
+                        </div>
+                        
+                         <div class="form-group">
+                            <label>عدد ساعات التطوع </label>
+                            <input type="number" name="hours" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>نوع التطوع </label>
+                            <input type="text" name="info" class="form-control">
+                        </div>
+                        
+                        
+                        
+                        <div class="form-group">
+                            <label>طلبات التطوع </label>
+                            <input type="text" name="requests" class="form-control">
+                        </div>
+                        
+                         
+                        
+                        <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+                    </form>
+                </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
